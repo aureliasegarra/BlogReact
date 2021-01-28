@@ -4,10 +4,17 @@ import React from 'react';
 // == Import
 import './style.scss';
 
+// import components
+import Home from 'src/components/Home';
+import Angular from 'src/components/Angular';
+import Oclock from 'src/components/Oclock';
+
 // == Composant
 const Nav = () => (
   <div className="nav">
-    <h1>Mon blog</h1>
+    <Home />
+    <Angular />
+    <Oclock />
   </div>
 );
 

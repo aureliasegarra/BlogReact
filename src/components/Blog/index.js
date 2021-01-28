@@ -5,18 +5,18 @@ import React from 'react';
 import './style.scss';
 
 // == Import components
-import Home from 'src/components/Home';
 import Nav from 'src/components/Nav';
-import React from 'src/components/React';
-import Angular from 'src/components/Anuglar';
+import Home from 'src/components/Home';
+import Angular from 'src/components/Angular';
+import Oclock from 'src/components/Oclock';
 
 // == Composant
 const Blog = () => (
   <div className="blog">
-    <Home />
     <Nav />
-    <React />
+    <Home />
     <Angular />
+    <Oclock />
   </div>
 );
 

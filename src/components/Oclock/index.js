@@ -5,11 +5,11 @@ import React from 'react';
 import './style.scss';
 
 // == Composant
-const React = () => (
-  <div className="react">
+const Oclock = () => (
+  <div className="oclock">
     <h1>Mon blog</h1>
   </div>
 );
 
 // == Export
-export default React;
+export default Oclock;
