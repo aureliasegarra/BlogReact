@@ -1,5 +1,6 @@
 // == Import npm
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 // == Import data
 import './style.scss';
@@ -12,12 +13,16 @@ import Oclock from 'src/components/Oclock';
 
 // == Composant
 const Blog = () => (
-  <div className="blog">
-    <Nav />
-    <Home />
-    <Angular />
-    <Oclock />
-  </div>
+  <Router>
+    <div className="blog">
+      <Nav />
+      <Switch>
+      <Route path="/" exact component={Home} />
+      <Route path="/angular" component={Angular} />
+      <Route path="/oclock" component={Oclock} />
+      </Switch>
+    </div>
+  </Router>
 );
 
 // == Export
