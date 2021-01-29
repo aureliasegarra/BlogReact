@@ -3,9 +3,10 @@
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;
-    background-color:gray;
-    color: white;
+    background-color: #fff;
+    color: rgb(67, 66, 66);
     width: 100%;
+    border-bottom: 1px solid #ddd;
     &__links {
         width: 50%;
         display: flex;

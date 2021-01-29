@@ -1,20 +1,32 @@
 // == Import npm
 import React from 'react';
+import PropTypes from 'prop-types';
 
 // == Import
 import './style.scss';
+import Article from './Article';
 
 // == Composant
-const Home = () => (
-  <div className="home">
-    <h1>DEV OF THRONES</h1>
-    <article>
-      <h2>le titre</h2>
-      <span>catégorie</span>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores repellendus dolor in ipsa doloremque pariatur sapiente voluptas aspernatur voluptatem quos.</p>
-    </article>
+const Home = ({ posts }) => (
+  <div className="container">
+    <h1 className="container__title">DEV OF THRONES</h1>
+    <wrapper className="wrap">
+      {posts.map((post) => (
+        <Article
+         key={post.id}
+         {...post}
+        />
+      ))}
+    </wrapper>
   </div>
 );
 
+Home.propTypes = {
+  posts: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+    }),
+  ).isRequired,
+}
 // == Export
 export default Home;
