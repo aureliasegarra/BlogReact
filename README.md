@@ -11,6 +11,7 @@
 - Javascript/REACT
 - Webpack
 - PropTypes
+- React-router
 
 ## Goals 
 - Discover React (web page usage)
