@@ -13,7 +13,7 @@ const Header = ({ categories }) => (
           <li key={label}>
             <a href={route} className="header__navlink">{label}</a>
           </li>
-          ))};
+          ))}
         </ul>
       </nav>
     </header>

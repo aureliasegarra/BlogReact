@@ -1,9 +1,9 @@
-# :computer: Dev Blog React
+# :wrinting_hand: Dev Blog React
 
 ## Create a blog page with React.
 
 ## Illustration
-![Exemple](img/rendering.png)
+![Exemple](screenshot.png)
 
 ## Language/tools
 - HTML5
@@ -11,7 +11,8 @@
 - Javascript/REACT
 - Webpack
 - PropTypes
-- React-router
+- React-router-dom
+- Babel
 
 ## Goals 
 - Discover React (web page usage)

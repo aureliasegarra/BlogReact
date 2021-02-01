@@ -1,4 +1,5 @@
 @use 'src/styles/vars' as v;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 .posts {
   padding: v.$gutter 0;
@@ -6,9 +7,8 @@
   margin: 0 auto;
   &__title {
     color: v.$primary-color;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    font-size: 2em;
+    font-family: 'Lobster', sans-serif;
+    font-size: 3em;
     margin-bottom: v.$gutter;
     text-align: center;
   }
