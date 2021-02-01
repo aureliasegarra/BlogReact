@@ -1,8 +1,8 @@
-// == Import npm
+// Import npm
 import React from 'react';
 import PropTypes from 'prop-types';
 
-// == Import
+// Import data
 import './style.scss';
 
 const Header = ({ categories }) => (
@@ -18,7 +18,6 @@ const Header = ({ categories }) => (
       </nav>
     </header>
   );
-
 
 Header.propTypes = {
   categories: PropTypes.arrayOf(
