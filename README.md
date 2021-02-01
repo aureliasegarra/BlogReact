@@ -1,4 +1,4 @@
-# :wrinting_hand: Dev Blog React
+# :writing_hand: Dev Blog React
 
 ## Create a blog page with React.
 
@@ -17,10 +17,10 @@
 ## Goals 
 - Discover React (web page usage)
 - Modularize the code using components
-- React Router
+- Discover react-router-dom
 
 ## Status
-Project not completed
+Project completed
 
 ## Context
 Project carried out during my training as a web developer
